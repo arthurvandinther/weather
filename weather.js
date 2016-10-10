@@ -11,7 +11,8 @@ $(function() {
 
 
     // Put your code here. Don't change any other code in this file. You will be sad.
-    var markup = "<p>the current temperature in Chicago is</p>" + weather.currently.temperature + "<p> the forecast for the temperature in 3 days is</p>" + weather.daily.data[2];
+    var markup = "<p>the current temperature in Chicago is</p>" + weather.currently.temperature +
+    "<p> the forecast for the temperature in 3 days is</p>" + weather.daily.data[2].apparentTemperatureMax;
 
 
 
